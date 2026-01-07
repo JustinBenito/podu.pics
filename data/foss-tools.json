@@ -1,0 +1,79 @@
+{
+  "tools": [
+    {
+      "name": "Next.js",
+      "description": "The React framework for production, used as the core framework for building Podu.pics with server-side rendering, routing, and optimized performance.",
+      "githubUrl": "https://github.com/vercel/next.js"
+    },
+    {
+      "name": "React",
+      "description": "A JavaScript library for building user interfaces, powering all interactive UI components and client-side logic.",
+      "githubUrl": "https://github.com/facebook/react"
+    },
+    {
+      "name": "TypeScript",
+      "description": "A typed superset of JavaScript that improves code quality, safety, and developer experience through static typing.",
+      "githubUrl": "https://github.com/microsoft/TypeScript"
+    },
+    {
+      "name": "Three.js",
+      "description": "A JavaScript 3D library used to render real-time 3D graphics and visual effects in the background experience.",
+      "githubUrl": "https://github.com/mrdoob/three.js"
+    },
+    {
+      "name": "React Three Fiber",
+      "description": "A React renderer for Three.js that enables building and managing 3D scenes using declarative React components.",
+      "githubUrl": "https://github.com/pmndrs/react-three-fiber"
+    },
+    {
+      "name": "Postprocessing",
+      "description": "A post-processing library for Three.js that adds advanced visual effects such as dithering and shader-based enhancements.",
+      "githubUrl": "https://github.com/pmndrs/postprocessing"
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "A utility-first CSS framework used for styling the application with a consistent, responsive design system.",
+      "githubUrl": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    {
+      "name": "tailwind-merge",
+      "description": "A utility that intelligently merges Tailwind CSS classes, preventing conflicts and reducing redundant styles.",
+      "githubUrl": "https://github.com/dcastil/tailwind-merge"
+    },
+    {
+      "name": "class-variance-authority",
+      "description": "A utility for managing Tailwind CSS variants in a clean and reusable way.",
+      "githubUrl": "https://github.com/joe-bell/cva"
+    },
+    {
+      "name": "clsx",
+      "description": "A small utility for constructing className strings conditionally in React components.",
+      "githubUrl": "https://github.com/lukeed/clsx"
+    },
+    {
+      "name": "Phosphor Icons",
+      "description": "A flexible and consistent icon set used throughout the application UI.",
+      "githubUrl": "https://github.com/phosphor-icons/react"
+    },
+    {
+      "name": "Lucide Icons",
+      "description": "An open-source icon library providing additional lightweight icons used in the interface.",
+      "githubUrl": "https://github.com/lucide-icons/lucide"
+    },
+    {
+      "name": "NanoID",
+      "description": "A tiny, secure, URL-friendly unique ID generator used to create identifiers for uploaded images.",
+      "githubUrl": "https://github.com/ai/nanoid"
+    },
+    {
+      "name": "AWS SDK for JavaScript",
+      "description": "The official AWS SDK used for interacting with S3-compatible object storage (Cloudflare R2) via signed URLs.",
+      "githubUrl": "https://github.com/aws/aws-sdk-js-v3"
+    },
+    {
+      "name": "ESLint",
+      "description": "A static analysis tool used to identify and fix problems in JavaScript and TypeScript code.",
+      "githubUrl": "https://github.com/eslint/eslint"
+    }
+  ]
+}

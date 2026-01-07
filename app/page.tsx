@@ -4,6 +4,7 @@ import Dither from "@/components/Dither";
 import { Image, Star, Check, Copy } from "@phosphor-icons/react";
 import { useState, useEffect } from "react";
 import toast, { Toaster } from 'react-hot-toast';
+import Link from "next/link";
 
 export default function Home() {
   const [dragActive, setDragActive] = useState(false);
@@ -242,8 +243,8 @@ export default function Home() {
       <footer className="absolute gap-0 bottom-6 left-0 right-0 text-center">
         <p className="text-white/60 font-bold text-md">
           Developed with love by Justin and Hari
-           <br /> 
-           <a href="https://www.fossunited.org" target="_blank" className="text-white/60 underline font-light italic text-md">Using awesome <span className="font-bold">FOSS</span> tools</a>
+           <br />
+           <Link href="/foss" className="text-white/60 underline font-light italic text-md hover:text-white/80 transition-colors">Using awesome <span className="font-bold">FOSS</span> tools</Link>
         </p>
       </footer>
 
