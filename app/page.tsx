@@ -239,9 +239,11 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="absolute bottom-6 left-0 right-0 text-center">
+      <footer className="absolute gap-0 bottom-6 left-0 right-0 text-center">
         <p className="text-white/60 font-bold text-md">
           Developed with love by Justin and Hari
+           <br /> 
+           <a href="https://www.fossunited.org" target="_blank" className="text-white/60 underline font-light italic text-md">Using awesome <span className="font-bold">FOSS</span> tools</a>
         </p>
       </footer>
 
